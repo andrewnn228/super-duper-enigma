@@ -1,0 +1,344 @@
+@import url(media.css);
+.html {
+    height: 100%;
+    margin: 0;
+}
+.header__logo {
+    height: 120px;
+    animation: logobox 3s ease 0s infinite normal;
+}
+.header__ssilki {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: #A69C88;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.glavnaia {
+    font-size: x-large;
+    color:black;
+    grid-area: main;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.glavnaia__zagolovok {
+    align-self: baseline;
+}
+.glavnaia__element {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.element__number {
+    align-self: flex-end;
+    transform: translateY(-150px);
+}
+.element__opisanie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 5px;
+}
+.opisanie__img {
+    height: 350px;
+}
+.footer__cop {
+    font-size: small;
+}
+.footer__img {
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+}
+.top {
+    color:black;
+    grid-area: main;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(250px, 700px));
+    gap: 20px;
+    padding: 20px;
+    font-size: x-large;
+}
+.top__element {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.element__img {
+    height: 350px;
+}
+.ssilka {
+    text-decoration: none;
+    color: white;
+}
+.button {
+    font-size: xx-large;
+    width: 250px;
+    height: 100px;
+    background-color: #9A836E;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid #A69C88;
+    transition: all 0.3s ease;
+}
+.nav__data {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #9A836E;
+    color: white;
+    border: 2px solid #A69C88
+}
+.otziv {
+    background-color: #9A836E;
+    color: white;
+    border: 2px solid #A69C88;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.mesta__mesto--n {
+    background-color: greenyellow;
+    border: 2px solid green;
+    transition: all 0.3s ease;
+}
+.mesta__mesto--z {
+    background-color: red;
+    border: 2px solid rgb(80, 4, 4);
+    transition: all 0.3s ease;
+}
+.mesta__mesto--s {
+    background-color: aqua;
+    border: 2px solid blue;
+    transition: all 0.3s ease;
+}
+.vibor_mest {
+    background-color: #9A836E;
+    border: 2px solid #A69C88;
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vibor_mest__scena {
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.vibor_mest__primer {
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 320px;
+}
+.vibor_mest__primer--m {
+    background-color: greenyellow;
+    border: 2px solid green;
+}
+.vibor_mest__primer--z {
+    background-color: red;
+    border: 2px solid rgb(80, 4, 4);
+}
+.vibor_mest__primer--s {
+    background-color: aqua;
+    border: 2px solid blue;
+}
+.vibor_mest__button {
+    font-size: xx-large;
+    width: 250px;
+    height: 100px;
+    background-color: #A69C88;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid #9A836E;
+    transition: all 0.3s ease;
+}
+.form {
+    background-color: #9A836E;
+    border: 2px solid #A69C88;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.form__button {
+    font-size: xx-large;
+    width: 220px;
+    height: 50px;
+    background-color: #A69C88;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid #9A836E;
+    transition: all 0.3s ease;
+}
+.form__pole {
+    font-size: x-large;
+    min-height: 60px;
+    background-color: #A69C88;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid #9A836E
+}
+.usp__uspehno {
+    color: yellowgreen;
+    font-size: xx-large;
+}
+.usp {
+    text-align: center;
+}
+.otziv--mod {
+    position: relative;
+}
+.otziv__pr {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: large;
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.otziv__otkl {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: large;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.zaiavka {
+    position: relative;
+    background-color: #9A836E;
+    color: white;
+    border: 2px solid #A69C88;
+    padding: 20px;
+    border-radius: 15px;
+}
+.zaiavka__pr {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: large;
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.zaiavka__otkl {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: large;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    background-color: #A69C88;
+    border: 2px solid #9A836E;
+}
+.mesta__mesto--n:hover {
+    background-color: green;
+    border: 2px solid greenyellow;
+}
+.mesta__mesto--z:hover {
+    background-color: rgb(80, 4, 4);
+    border: 2px solid red;
+}
+.mesta__mesto--s:hover {
+    background-color: blue;
+    border: 2px solid aqua;
+}
+.vibor_mest__button:hover {
+    background-color: #9A836E;
+    border: 2px solid #A69C88;
+}
+.form__button:hover {
+    background-color: #9A836E;
+    border: 2px solid #A69C88;
+}
+.otziv__pr:hover {
+    background-color: rgb(0, 47, 0);
+}
+.otziv__otkl:hover {
+    background-color: rgb(61, 0, 0);
+}
+.zaiavka__pr:hover {
+    background-color: rgb(0, 47, 0);
+}
+.zaiavka__otkl:hover {
+    background-color: rgb(61, 0, 0);
+}
+.header__ssilki:hover {
+    background-color: #66593e;
+}
+.nav__data:focus {
+    background-color: #66593e;
+}
+.form__pole:focus {
+    background-color: #9A836E;
+    border: 2px solid #A69C88;
+}
+@keyframes logobox {
+    0% {
+        transform: translateY(0px);
+    }
+        50% {
+        transform: translateY(10px);
+    }
+        100% {
+        transform: translateY(0px);
+    }
+}

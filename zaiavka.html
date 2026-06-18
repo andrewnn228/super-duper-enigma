@@ -1,0 +1,53 @@
+<!doctype html>
+<html class = "html">
+  <head>
+    <link rel = "icon" href = "media/logo.png" type = "png">
+    <link rel = "stylesheet" href = "css/style.css">
+    <meta charset = "UTF-8">
+    <meta name = "description" content = "theatre">
+    <meta name = "author" content =  "Нацибулин">
+    <meta name = "keywords" content = "theatre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Театральная афиша</title>
+  </head>
+  <body class="body body--classik">
+    <header class="header">
+        <a href="index.html"><img class = "header__logo" src="media/logo.png" alt="logo"></a>
+        <a href="afisha.html" class="ssilka"><div class = "header__ssilki"><h3>АФИША</h1></div></a>
+        <a href="top10.html" class="ssilka"><div class = "header__ssilki"><h3>ТОП-10</h1></div></a>
+          <a href="otzivi.html" class="ssilka"><div class = "header__ssilki"><h3>ОТЗЫВЫ</h1></div></a>
+    </header>
+    <main class = "glavnaia">
+          <form class="form" action="successfully.html" method="post">
+            <label for="fio">ФИО:</label><br>
+            <input class="form__pole" type="text" maxlength="255" placeholder="Иванов Иван Иванович" id="fio" name="fio" required><br>
+            <label for="tel">Телефон:</label><br>
+            <input class="form__pole" type="tel" id="tel" name="tel" placeholder="+79999999999" required><br>
+            <label for="email">Почта:</label><br>
+            <input class="form__pole" type="email" id="email" name="email" placeholder="ivanov@example.com" required><br>
+            <label for="nazvanie">Название:</label><br>
+            <input class="form__pole" type="text" maxlength="255" placeholder="Название мероприятия" id="nazvanie" name="nazvanie" required><br>
+            <label for="prodolzhitelnost">Продолжительность:</label><br>
+            <input class="form__pole" type="number" step="1" min="0" max="420" placeholder="240" id="prodolzhitelnost" name="prodolzhitelnost" required><br>
+            <label for="adres">Адрес и номер зала:</label><br>
+            <input class="form__pole" type="text" maxlength="255" placeholder="Адрес и номер зала" id="adres" name="adres" required><br>
+            <label for="srednyaya_otsenka">Средняя оценка:</label><br>
+            <input class="form__pole" type="number" step="0.1" min="1" max="5" placeholder="4.5" id="srednyaya_otsenka" name="srednyaya_otsenka" required><br>
+            <label for="vremya_nachala">Время начала:</label><br>
+            <input class="form__pole" type="datetime-local" id="vremya_nachala" name="vremya_nachala" required><br>
+            <label for="vzrostnoe_ogranichenie">Возрастное ограничение:</label><br>
+            <input class="form__pole" type="number" step="1" min="0" max="18" placeholder="18" id="vzrostnoe_ogranichenie" name="vzrostnoe_ogranichenie" required><br>
+            <label for="opisanie">Описание:</label><br>
+            <textarea class="form__pole" id="opisanie" name="opisanie" rows="4" cols="10" maxlength="255" required></textarea><br>
+            <input class="form__button" type="submit" value="Отправить">
+            </form>
+    </main>
+ <footer class = "footer">
+        <div class = "footer__cop">© 2025–2026 ООО «Лучшие Сайты»</div>
+        <div class = "footer__cop">Нацибулин Андрей Александрович<br>24290907/2092</div>
+        <div class = "footer__cop"><a class="ssilka" href="vhod_o.html">Организаторам</a></div>
+        <div class = "footer__cop"><a class="ssilka" href="vhod.html">Вход</a></div>
+        <a href="https://web.telegram.org"><img src="media/d2a96a61207368aefbdbd47a5f36c736.png" alt="tg" class="footer__img"></a>
+    </footer>
+  </body>
+</html>
